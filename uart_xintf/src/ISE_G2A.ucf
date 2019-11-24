@@ -1,0 +1,89 @@
+
+##时钟
+NET "clk" LOC = T8 | TNM_NET = sys_clk_pin | IOSTANDARD = "LVCMOS33";
+TIMESPEC TS_sys_clk_pin = PERIOD sys_clk_pin 50000 kHz;
+##复位
+NET     rst_n       LOC = A9 | IOSTANDARD = "LVCMOS33"; ## Reset Button
+
+
+#1
+NET     in_spot_tracker         LOC = T15 | IOSTANDARD = "LVCMOS33";
+
+#2
+NET     out_spot_tracker        LOC = T14 | IOSTANDARD = "LVCMOS33";
+
+#3
+NET     out_laser_5308          LOC = T5 | IOSTANDARD = "LVCMOS33";
+
+#4
+NET     in_laser_5308           LOC = T4 | IOSTANDARD = "LVCMOS33";
+
+#5
+NET     out_laser_xg            LOC = T6 | IOSTANDARD = "LVCMOS33";
+
+#6
+NET     out_CTV_xg              LOC = T7 | IOSTANDARD = "LVCMOS33";
+
+#7
+NET     out_COP_TV              LOC = R9 | IOSTANDARD = "LVCMOS33";
+
+#8
+NET     out_COP_FLIR            LOC = T9 | IOSTANDARD = "LVCMOS33";
+
+#9
+NET     out_COP_SWIR            LOC = R7 | IOSTANDARD = "LVCMOS33";
+
+#10
+NET     out_COP_FSM             LOC = R5 | IOSTANDARD = "LVCMOS33";
+
+##扫描外同步输入I/O，共4个
+NET     in_scan_COP_TV          LOC = R2 | IOSTANDARD = "LVCMOS33";
+NET     in_scan_COP_FLIR        LOC = R1 | IOSTANDARD = "LVCMOS33";
+NET     in_scan_COP_SWIR        LOC = P2 | IOSTANDARD = "LVCMOS33";
+NET     in_scan_COP_FSM         LOC = P1 | IOSTANDARD = "LVCMOS33";
+
+##串口
+NET     rxd                     LOC = T13 | IOSTANDARD = "LVCMOS33";
+NET     txd                     LOC = T12 | IOSTANDARD = "LVCMOS33";
+
+##DSP并行总线XINTF
+NET     cs_n                    LOC = M1 | IOSTANDARD = "LVCMOS33";
+NET     re_n                    LOC = K2 | IOSTANDARD = "LVCMOS33";
+NET     we_n                    LOC = L1 | IOSTANDARD = "LVCMOS33";
+#数据总线0-15:	K1 J3 J1 H2 H1 G3 G1 F2 F1 K3 E2 E1 C3 C2 D1 C1
+NET     xdata[0]                LOC = K1 | IOSTANDARD = "LVCMOS33";
+NET     xdata[1]                LOC = J3 | IOSTANDARD = "LVCMOS33";
+NET     xdata[2]                LOC = J1 | IOSTANDARD = "LVCMOS33";
+NET     xdata[3]                LOC = H2 | IOSTANDARD = "LVCMOS33";
+NET     xdata[4]                LOC = H1 | IOSTANDARD = "LVCMOS33";
+NET     xdata[5]                LOC = G3 | IOSTANDARD = "LVCMOS33";
+NET     xdata[6]                LOC = G1 | IOSTANDARD = "LVCMOS33";
+NET     xdata[7]                LOC = F2 | IOSTANDARD = "LVCMOS33";
+NET     xdata[8]                LOC = F1 | IOSTANDARD = "LVCMOS33";
+NET     xdata[9]                LOC = K3 | IOSTANDARD = "LVCMOS33";
+NET     xdata[10]               LOC = E2 | IOSTANDARD = "LVCMOS33";
+NET     xdata[11]               LOC = E1 | IOSTANDARD = "LVCMOS33";
+NET     xdata[12]               LOC = C3 | IOSTANDARD = "LVCMOS33";
+NET     xdata[13]               LOC = C2 | IOSTANDARD = "LVCMOS33";
+NET     xdata[14]               LOC = D1 | IOSTANDARD = "LVCMOS33";
+NET     xdata[15]               LOC = C1 | IOSTANDARD = "LVCMOS33";
+
+##其他XINTF辅助信号
+NET     fifo_state              LOC = N3 | IOSTANDARD = "LVCMOS33";
+NET     cs_fpga_n               LOC = N1 | IOSTANDARD = "LVCMOS33";
+
+##两个LED
+NET     led1                    LOC = A13 | IOSTANDARD = "LVCMOS33";
+NET     led2                    LOC = A14 | IOSTANDARD = "LVCMOS33";
+
+##与DSP相连备份IO共4个:
+NET     nc1                     LOC = M2 | IOSTANDARD = "LVCMOS33";
+NET     nc2                     LOC = A2 | IOSTANDARD = "LVCMOS33";
+NET     nc3                     LOC = B2 | IOSTANDARD = "LVCMOS33";
+NET     nc4                     LOC = A3 | IOSTANDARD = "LVCMOS33";
+
+##FPGA状态测试管脚(调试用)
+NET     nop1                    LOC = A4 | IOSTANDARD = "LVCMOS33";
+NET     nop2                    LOC = A5 | IOSTANDARD = "LVCMOS33";
+NET     nop3                    LOC = A6 | IOSTANDARD = "LVCMOS33";
+NET     nop4                    LOC = A7 | IOSTANDARD = "LVCMOS33";

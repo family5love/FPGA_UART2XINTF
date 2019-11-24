@@ -1,0 +1,257 @@
+m255
+K3
+13
+cModel Technology
+dD:\fengtao\Project\G2A\FPGA\bi_fifo\sim
+vexe_pusle_lighting
+VhQ]7QiNO:<AFWOE6hPHh>0
+r1
+!s85 0
+31
+I<ReDA4WV5D5;eRB2n7@Mb2
+Z0 dD:\fengtao\Project\G2A\FPGA\uart_xintf\sim
+w1574415645
+8D:/fengtao/Project/G2A/FPGA/uart_xintf/src/exe_pulse_lighting.v
+FD:/fengtao/Project/G2A/FPGA/uart_xintf/src/exe_pulse_lighting.v
+L0 15
+Z1 OL;L;10.1c;51
+Z2 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+!s90 -reportprogress|300|-work|work|-vopt|D:/fengtao/Project/G2A/FPGA/uart_xintf/src/exe_pulse_lighting.v|
+!s100 T7WKGF3Pmc^`5:Xe5g0TX0
+!s108 1574415649.468000
+!s107 D:/fengtao/Project/G2A/FPGA/uart_xintf/src/exe_pulse_lighting.v|
+!i10b 1
+vfifo
+VOGnokCdUKlT@7S3M>G>@50
+r1
+31
+I_df``jAK_gJQV]6G7`4ja3
+Z3 dD:\fengtao\Project\G2A\FPGA\uart_xintf\sim
+w1573438929
+8D:/fengtao/Project/G2A/FPGA/uart_xintf/src/fifo.v
+FD:/fengtao/Project/G2A/FPGA/uart_xintf/src/fifo.v
+L0 3
+R1
+R2
+!s100 4GPTOb6XaomU[G@ZDAn1z0
+!s90 -reportprogress|300|-work|work|-vopt|D:/fengtao/Project/G2A/FPGA/uart_xintf/src/fifo.v|
+!s108 1573630197.177000
+!s107 D:/fengtao/Project/G2A/FPGA/uart_xintf/src/fifo.v|
+!s85 0
+!i10b 1
+vtb_exe_pulse_lighting
+V<EncHRW_OoE^eh1>Ngi3R1
+r1
+31
+ID2ZFLMS:BCg`]RVbSc9on3
+R3
+w1574412956
+8D:/fengtao/Project/G2A/FPGA/uart_xintf/sim/tb_exe_pulse_lighting.v
+FD:/fengtao/Project/G2A/FPGA/uart_xintf/sim/tb_exe_pulse_lighting.v
+L0 3
+R1
+R2
+!s85 0
+!s100 `cY_J@UGEhW<RfWnO_08T1
+!s90 -reportprogress|300|-work|work|-vopt|D:/fengtao/Project/G2A/FPGA/uart_xintf/sim/tb_exe_pulse_lighting.v|
+!i10b 1
+!s108 1574415649.527000
+!s107 D:/fengtao/Project/G2A/FPGA/uart_xintf/sim/tb_exe_pulse_lighting.v|
+vtb_uart_rx
+I:d:VTDIDI^2loPmho]WKO3
+V[n[iE0k>;0CKO6`B=PZS82
+Z4 dD:\fengtao\Project\G2A\FPGA\xintf_top\sim
+w1572429172
+8D:/fengtao/Project/G2A/FPGA/xintf_top/sim/tb_uart_rx.v
+FD:/fengtao/Project/G2A/FPGA/xintf_top/sim/tb_uart_rx.v
+L0 3
+R1
+r1
+31
+R2
+!s100 ]`42=eG`G0m1=ljVmaGe20
+!s90 -reportprogress|300|-work|work|-vopt|D:/fengtao/Project/G2A/FPGA/xintf_top/sim/tb_uart_rx.v|
+!s108 1572578537.106000
+!s107 D:/fengtao/Project/G2A/FPGA/xintf_top/sim/tb_uart_rx.v|
+!i10b 1
+!s85 0
+vtb_uart_tx
+IHmmVMSFDZn>R_MPL3Hz270
+VD]fNG@l2YCnISb53_MB<:1
+R4
+w1572340292
+8D:/fengtao/Project/G2A/FPGA/xintf_top/sim/tb_uart_tx.v
+FD:/fengtao/Project/G2A/FPGA/xintf_top/sim/tb_uart_tx.v
+L0 3
+R1
+r1
+31
+R2
+!s100 oC2S]0H9QRGMiehhPmFGA2
+!s90 -reportprogress|300|-work|work|-vopt|D:/fengtao/Project/G2A/FPGA/xintf_top/sim/tb_uart_tx.v|
+!s108 1572578536.827000
+!s107 D:/fengtao/Project/G2A/FPGA/xintf_top/sim/tb_uart_tx.v|
+!i10b 1
+!s85 0
+vtb_uart_xintf
+V[:jXg1OiBTP^ll1k^K31Z3
+r1
+31
+ID2hPB4K@d4>^JjG_]mWiF3
+R3
+w1573630184
+8D:/fengtao/Project/G2A/FPGA/uart_xintf/sim/tb_uart_xintf.v
+FD:/fengtao/Project/G2A/FPGA/uart_xintf/sim/tb_uart_xintf.v
+L0 2
+R1
+R2
+!s90 -reportprogress|300|-work|work|-vopt|D:/fengtao/Project/G2A/FPGA/uart_xintf/sim/tb_uart_xintf.v|
+!s100 TO5=bb5MI^[24mFjA^PBZ3
+!s108 1573630197.101000
+!s107 D:/fengtao/Project/G2A/FPGA/uart_xintf/sim/tb_uart_xintf.v|
+!s85 0
+!i10b 1
+vtb_xintf
+IX;J2R2U:azHie^<NlHe8j1
+V:RLWHeSVUH`]DZn^3P2Qk0
+R4
+w1572427941
+8D:/fengtao/Project/G2A/FPGA/xintf_top/sim/tb_xintf.v
+FD:/fengtao/Project/G2A/FPGA/xintf_top/sim/tb_xintf.v
+L0 3
+R1
+r1
+31
+R2
+!s100 ne7zm^HR`f`?QoYXcI=S53
+!s90 -reportprogress|300|-work|work|-vopt|D:/fengtao/Project/G2A/FPGA/xintf_top/sim/tb_xintf.v|
+!s108 1572578536.656000
+!s107 D:/fengtao/Project/G2A/FPGA/xintf_top/sim/tb_xintf.v|
+!i10b 1
+!s85 0
+vtb_xintf_top
+In]XEZ_Wfi4CTFCKc][RRP1
+VJE`4R:FB`GNIi<IWg`1aX1
+R4
+w1572427932
+8D:\fengtao\Project\G2A\FPGA\xintf_top\sim\tb_xintf_top.v
+FD:\fengtao\Project\G2A\FPGA\xintf_top\sim\tb_xintf_top.v
+L0 11
+R1
+r1
+31
+R2
+!s100 eeVGbzH>D6=@H^]S]<<mP3
+!s90 -reportprogress|300|-work|work|-vopt|D:\fengtao\Project\G2A\FPGA\xintf_top\sim\tb_xintf_top.v|
+!s108 1572578536.772000
+!s107 D:\fengtao\Project\G2A\FPGA\xintf_top\sim\tb_xintf_top.v|
+!i10b 1
+!s85 0
+vuart_rx
+V^j7cTLaN0OK2S9Pen5PfS2
+r1
+31
+IcZ=<:;jPZ]dlEFD:_C2cQ3
+R3
+w1573462835
+8D:/fengtao/Project/G2A/FPGA/uart_xintf/src/uart_rx.v
+FD:/fengtao/Project/G2A/FPGA/uart_xintf/src/uart_rx.v
+L0 3
+R1
+R2
+!s100 0o1nHHU;3o8TMPN?2jQlJ1
+!s90 -reportprogress|300|-work|work|-vopt|D:/fengtao/Project/G2A/FPGA/uart_xintf/src/uart_rx.v|
+!s108 1573630197.235000
+!s107 D:/fengtao/Project/G2A/FPGA/uart_xintf/src/uart_rx.v|
+!s85 0
+!i10b 1
+vuart_rx_cmd
+VhWclA`2GSfgb1<BgIa<UO1
+r1
+31
+I@6nIOm4i0;?[2cTm=`Wi^2
+R3
+w1573629867
+8D:/fengtao/Project/G2A/FPGA/uart_xintf/src/uart_rx_cmd.v
+FD:/fengtao/Project/G2A/FPGA/uart_xintf/src/uart_rx_cmd.v
+L0 10
+R1
+R2
+!s100 5_Jiz0hU2>K`R>i1<R9V50
+!s90 -reportprogress|300|-work|work|-vopt|D:/fengtao/Project/G2A/FPGA/uart_xintf/src/uart_rx_cmd.v|
+!s108 1573630197.550000
+!s107 D:/fengtao/Project/G2A/FPGA/uart_xintf/src/uart_rx_cmd.v|
+!s85 0
+!i10b 1
+vuart_tx
+VgDZ3E33C4^R`b9fX7]>B<1
+r1
+31
+IfoRhA2<0mhF^_lcLEPT>c2
+R3
+w1573173814
+8D:/fengtao/Project/G2A/FPGA/uart_xintf/src/uart_tx.v
+FD:/fengtao/Project/G2A/FPGA/uart_xintf/src/uart_tx.v
+L0 4
+R1
+R2
+!s100 Xo[gA<9BjbPTR6eTG@>8Y2
+!s90 -reportprogress|300|-work|work|-vopt|D:/fengtao/Project/G2A/FPGA/uart_xintf/src/uart_tx.v|
+!s108 1573630197.285000
+!s107 D:/fengtao/Project/G2A/FPGA/uart_xintf/src/uart_tx.v|
+!s85 0
+!i10b 1
+vuart_xintf
+VK;3:cf@BRFX6b1N2d^hg]3
+r1
+31
+IP?Pa`Y1N_Ndf^RoePGc8^0
+R3
+w1573530663
+8D:\fengtao\Project\G2A\FPGA\uart_xintf\src\uart_xintf.v
+FD:\fengtao\Project\G2A\FPGA\uart_xintf\src\uart_xintf.v
+L0 21
+R1
+R2
+!s100 N6S?k]6zoN6FFn3YOf8@k1
+!s90 -reportprogress|300|-work|work|-vopt|D:\fengtao\Project\G2A\FPGA\uart_xintf\src\uart_xintf.v|
+!s108 1573630197.347000
+!s107 D:\fengtao\Project\G2A\FPGA\uart_xintf\src\uart_xintf.v|
+!s85 0
+!i10b 1
+vxintf
+Vh=h1XaA[4f?YT]iY3Q2^m2
+r1
+31
+Io;Yo>Si:`_kjX3W9K9Ad[2
+R3
+w1573443217
+8D:/fengtao/Project/G2A/FPGA/uart_xintf/src/xintf.v
+FD:/fengtao/Project/G2A/FPGA/uart_xintf/src/xintf.v
+L0 3
+R1
+R2
+!s100 9Wj:BoI^QeAk;m;di`>DO0
+!s90 -reportprogress|300|-work|work|-vopt|D:/fengtao/Project/G2A/FPGA/uart_xintf/src/xintf.v|
+!s108 1573630197.410000
+!s107 D:/fengtao/Project/G2A/FPGA/uart_xintf/src/xintf.v|
+!s85 0
+!i10b 1
+vxintf_top
+VfPmIZi92@c;F^6T^O2i0L0
+r1
+31
+IXc[2;FNW22zIfdl^5;EOm1
+R3
+w1573457503
+8D:/fengtao/Project/G2A/FPGA/uart_xintf/src/xintf_top.v
+FD:/fengtao/Project/G2A/FPGA/uart_xintf/src/xintf_top.v
+L0 11
+R1
+R2
+!s100 =dT?_VSB?WXPVNlJO62@S2
+!s90 -reportprogress|300|-work|work|-vopt|D:/fengtao/Project/G2A/FPGA/uart_xintf/src/xintf_top.v|
+!s108 1573630197.488000
+!s107 D:/fengtao/Project/G2A/FPGA/uart_xintf/src/xintf_top.v|
+!s85 0
+!i10b 1
