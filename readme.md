@@ -1,5 +1,5 @@
-## Uart_xintf模块:串口到XINTF接口转换
-# 内部主要模块功能
+# Uart_xintf模块:串口到XINTF接口转换
+## 内部主要模块功能
 1. uart_rx模块完成串口接收，将rxd输入的串口信号转换为8bit数据写入FIFO1；
 2. Fifo1缓存串口写入的数据，缓存达到指定数据量后触发xintf模块将数据发送出去；
 3. Xintf模块完成XINTF的读取写入电平操作，与TI28335DSP的XINTF接口连接；
